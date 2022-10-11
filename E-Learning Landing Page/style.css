@@ -1,0 +1,405 @@
+body{
+    background: #F6F9FE;
+}
+h1{ 
+    font-family: Inter ;
+}
+p{
+    font-family: Poppins;
+}
+/* Navbar styling */
+
+.my-nav{
+    justify-content: center;
+    
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-brand{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+.hero-cta{
+    display: flex;
+    margin-left: auto;
+}
+.hero-cta a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+}
+.btn-register{
+    background: #8E0C89;
+    box-shadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color:#fff;
+    border: none;
+    width: 130px;
+    height: 40px;
+
+    /*  */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* hero content */
+
+.store-btns button{
+    width: 170px;
+    height: 67px;    
+    border: 1px solid rgba(118, 118, 118, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    margin:0.5rem;
+    
+}
+
+.hero-image{
+    margin-left: auto;
+}
+.hero-heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: left;
+}
+.hero-paragraph{
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.learn-section button{
+    width: 166px;
+    height: 58px;
+    background: #8E0C89;
+    border-radius: 25px;
+    border:none;
+    color:#fff;
+
+}
+
+/* Online learning & design System section */
+.learning-design{
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.section-2-heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 58px;
+}
+.section-2-paragraph{
+    font-family:Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 153% */
+    
+    text-transform: capitalize;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+.explore{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.btn-explore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 21px;
+    gap: 20px;
+    
+    width: 191px;
+    height: 62px;
+    
+    border: 1.8px solid #8E0C89;
+    filter: drop-shadow(0px 8px 35px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.section-2-content{
+    flex-direction: row;
+    gap: 9rem;
+}
+
+/* Courses we offer */
+.courses-headings{
+    text-align: center;
+}
+.courses-headings h1{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #8E0C89;
+}
+.courses-headings p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 153% */
+    text-transform: capitalize;    
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.box-1
+{
+    width: 350px;
+    height: 150px;
+    background: #8E0C89;
+    box-shadow: 0px 4px 8px 8px rgba(142, 12, 137, 0.25);
+    border-radius: 6px;
+    color: #fff;
+    font-family: Poppins;
+    padding: 1rem;
+    font-size: 15px;
+    line-height: 24px;
+}
+.box-2{
+    width: 350px;
+    height: 150px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+    background: #FFFFFF;
+    border-radius: 6px;
+    /* transform: rotate(89.57deg); */
+    font-family: Poppins;
+    padding: 1rem;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+.details h1{
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+
+color: #333333;
+}
+
+.details .name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #8E0C89;
+
+}
+.course-row{
+    margin-top: 5rem;
+}
+
+/***************8 why choose us section ************8*/
+
+.choose-us-bg{
+    
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(101.26deg, rgba(146, 100, 100, 0.9) -9.08%, rgba(97, 57, 103, 0.9) 101.52%);
+    color:#fff;
+    padding: 10rem;
+
+}
+.choose-us-row{
+    /* margin-top: 15rem; */
+}
+.choose-us-headings{
+    text-align: center;
+    /* margin-bottom: 5rem; */
+}
+.choose-us-headings h2{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 44px;
+
+}
+.choose-us-headings p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+/* **************************Popular instructors************************** */
+
+.pop-instructor-headings{
+    text-align: center;
+}
+.instructor-card{
+    width: 313px;
+    height: 409px;
+
+    background: #FFFFFF;
+    border-radius: 6px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.instructor-card h5,p{
+    margin-top: 1rem;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+
+}
+
+/* ****************************Stats****************************************** */
+
+.stats{
+    margin-top: 8rem;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 8px;
+    color:#fff;
+    padding: 2rem;
+    text-align: center;
+}
+.top-line{
+    margin-bottom: 2rem;
+}
+.btm-line{
+    margin-top: 2rem;
+}
+
+
+/* ******************************How to get started********************************************* */
+.step{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.htgs h2{
+    
+    text-align: center;
+    margin-top: 5rem;
+}
+
+/* **********************************************Footer************************************************************* */
+footer{
+    margin-top: 10rem;
+    padding: 3rem;
+    background: #8E0C89;
+    border-radius: 20px 20px 0px 0px;
+    color:#fff;
+}
+.footer-paragraph{
+    max-width: 50%;
+}
+
+
+/* **********************************************Sign In Page**************************************************************** */
+.sign-in-hero-text{
+    /* position: absolute; */
+    /* left: 3.74%; */
+
+    /* right: 44.41%; */
+    left: 0;
+    right: 0;
+    top: 34.56%;
+    bottom: 34.87%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+    min-height: 300px;
+    text-align: center!important;
+    background: linear-gradient(128.12deg, #FCEDE7 -30.82%, rgba(223, 220, 219, 0.582057) 53.44%, rgba(252, 237, 231, 0.65) 129.36%);
+    box-shadow: 0px 4px 22px 19px rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    transform: rotate(0.34deg);
+    /* min-width: 45%; */
+    /* min-height: 40%; */
+    padding:3.5rem;
+}
+
+/* @media(max-width: 768px),(max-width:974px){
+    .sign-in-hero-text{
+        height:40%;
+        width:70%;
+    }
+    .sign-in-hero-text p{
+        
+    }
+} */
+
+.sign-in-hero-text h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    max-width: 100%;
+    color: #000000;
+    
+}
+.sign-in-hero-text p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* max-width: 85%; */
+    color: rgba(0, 0, 0, 0.5);    
+}
+
+.sign-in-btns{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 6rem;
+}
+input{
+    padding: 24px 10px 24px 25px;
+    width: 400px;
+    height: 72px;
+    background: #E8ECF8;
+    border-radius: 15px;
+    border: none;
+}
+.sign-in-btn{
+    width: 400px;
+    height: 72px;
+    left: 920px;
+    top: 654px;
+    background: #8E0C89;
+    border-radius: 15px;
+    color:#fff;
+    border: none;
+    margin-top: 5rem;
+    cursor: pointer;
+}
